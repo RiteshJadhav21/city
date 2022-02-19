@@ -5,5 +5,5 @@ RUN npm install
 
 
 COPY . /app
-CMD node server1.js
+CMD node server.js
 EXPOSE 3000
