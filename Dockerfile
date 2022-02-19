@@ -1,9 +1,9 @@
 FROM node:16
-WORKDIR app
-COPY package.json app
+WORKDIR /app
+COPY package.json /app
 RUN npm install
 
 
-COPY . app
+COPY . /app
 CMD node server1.js
 EXPOSE 3000
